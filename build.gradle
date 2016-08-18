@@ -34,7 +34,10 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-	mavenCentral()
+    	mavenCentral()
+    	maven {
+		    url "http://139.196.104.244:9090/nexus/content/groups/public/"
+		}
 }
 
 dependencies {
